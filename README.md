@@ -7,6 +7,7 @@ One place for everything I practise on the way to a Data Analyst, Analytics Engi
 | Track | Folder | Status |
 | --- | --- | --- |
 | SQL | [`sql/`](sql/README.md) | Active, daily questions (5 solved, 28 assigned) |
+| SQL reference | [`sql/reference/`](sql/reference/README.md) | 21 topics plus analytics, warehouse, ETL and performance examples on a demo MySQL database |
 | Python | [`python/`](python/README.md) | Active, daily questions (4 solved, 9 assigned) |
 | Data analysis with Python | [`python/data-analysis/`](python/data-analysis/README.md) | NumPy, pandas, seaborn and plotly notebooks, 2 exercises |
 | Databases and data modelling | `dbms/` | Planned |

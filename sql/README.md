@@ -8,6 +8,7 @@ Daily SQL questions for data analyst and data engineering roles. Every question 
 | --- | --- |
 | [`easy/`](easy/README.md), [`medium/`](medium/README.md), [`hard/`](hard/README.md) | Assigned questions, stored once under their LeetCode difficulty |
 | `easy_solved/` | Questions already solved. Move a file here when it is done |
+| [`reference/`](reference/README.md) | Study material: 21 SQL topics, analytics, data warehouse, ETL and performance examples on a demo MySQL database |
 
 Question numbers are one sequence for the whole SQL track and keep counting across difficulty levels. The number in the file name is this repo's own counter; the source platform's problem ID is inside the file.
 
@@ -15,6 +16,7 @@ Question numbers are one sequence for the whole SQL track and keep counting acro
 sql/
 ├── easy/             assigned easy questions + index
 ├── easy_solved/      finished easy questions
+├── reference/        topic examples on a demo database
 ├── medium/           assigned medium questions + index
 └── hard/             assigned hard questions + index
 ```
