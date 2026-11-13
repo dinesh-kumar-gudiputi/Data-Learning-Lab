@@ -1,8 +1,5 @@
 # Medium Python questions
 
-Each question belongs to its source difficulty. The other level folders contain different questions. Question numbering continues across the entire repository, including all difficulty folders.
+Numbering is one sequence per track and continues across easy, medium and hard.
 
-| Number | Question file |
-| --- | --- |
-
-No questions added at this difficulty yet. They will be added as you progress.
+No questions at this level yet. They are added as you progress.
