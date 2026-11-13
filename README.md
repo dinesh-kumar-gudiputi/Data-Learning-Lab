@@ -1,22 +1,48 @@
-<h1 align="center">Data Foundations</h1>
+# Data Foundations
 
-<p align="center"><b>SQL, Python and data skills, practised daily on the way to a Data Analyst / Analytics Engineer role.</b></p>
+> One repository for the SQL, Python and data skills I practise and study, on the way to a Data Analyst or Analytics Engineer role. Every subject has two parts: **problem solving** and **learning**. New subjects are added as I learn them.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/SQL-4479A1?logo=mysql&logoColor=white" alt="SQL">
-  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white" alt="pandas">
-  <img src="https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white" alt="Jupyter">
-</p>
+## Progress board
 
-One repository for everything I practise and study. Each subject has the same two parts: **problem solving** (coding questions) and **learning** (topics and worked examples). More subjects are added here as I learn them. Finished projects live in their own repositories, linked at the bottom.
+```text
+SQL problems      ███░░░░░░░░░░░░░░░░░   5 of 33 solved   (15%)
+Python problems   ██████░░░░░░░░░░░░░░   4 of 13 solved   (31%)
+```
 
-## Subjects
+| Level | SQL waiting | SQL solved | Python waiting | Python solved |
+| --- | ---: | ---: | ---: | ---: |
+| Easy | 24 | 5 | 9 | 4 |
+| Medium | 4 | 0 | 0 | 0 |
+| Hard | 0 | 0 | 0 | 0 |
+
+*Total = waiting + solved. The 12 LeetCode solutions in [`earlier-solutions/`](sql/problem-solving/earlier-solutions/README.md) are from before the daily routine and are not counted.*
+
+## Daily loop
+
+```mermaid
+flowchart LR
+    A["Open an assigned file<br/>in easy / medium / hard"] --> B["Write the answer"]
+    B --> C["Test it against the<br/>example in the file"]
+    C --> D["Review"]
+    D --> E["Move it to solved/"]
+    E --> F["Commit"]
+```
+
+Commit messages look like `practice: solve question 10 not boring movies`.
+
+## Study tracks
+
+| Track | What is in the repo |
+| --- | --- |
+| **[SQL learning](sql/learning/README.md)** | A demo retail database (`nova_retail`, 9 tables) and 8 numbered stages: database setup, 21 topics (79 files), analytics, data cleaning, advanced SQL, data warehouse, ETL pipelines, performance |
+| **[Python learning](python/learning/README.md)** | 5 notebooks (NumPy, pandas, a Pokémon pandas exercise, seaborn, plotly with cufflinks) and 2 exercises (Iris data analysis, salary analysis) |
+
+## Roadmap
 
 | Subject | Problem solving | Learning |
 | --- | --- | --- |
-| SQL | [`sql/problem-solving/`](sql/problem-solving/README.md): 28 assigned, 5 solved | [`sql/learning/`](sql/learning/README.md): 21 topics on a demo database, plus analytics, warehouse, ETL, performance |
-| Python | [`python/problem-solving/`](python/problem-solving/README.md): 9 assigned, 4 solved | [`python/learning/`](python/learning/README.md): NumPy, pandas, seaborn, plotly notebooks, 2 exercises |
+| SQL | [In progress](sql/problem-solving/README.md) | [In the repo](sql/learning/README.md) |
+| Python | [In progress](python/problem-solving/README.md) | [In the repo](python/learning/README.md) |
 | Databases and data modelling | Planned | Planned |
 | Git and Linux | Planned | Planned |
 | Data structures and algorithms | Planned | Planned |
@@ -30,24 +56,19 @@ A planned subject gets its folder when the first work lands, so there are no emp
 data-foundations/
 ├── sql/
 │   ├── problem-solving/    easy, medium, hard, solved, earlier-solutions
-│   └── learning/           topics and examples in study order
+│   └── learning/           00_database ... 07_performance, in study order
 └── python/
     ├── problem-solving/    easy, medium, hard, solved
     └── learning/           notebooks and exercises
 ```
 
-## How to work in this repo
-
-1. Open the assigned file in `easy/`, `medium/` or `hard/` inside a subject's `problem-solving/` folder.
-2. Write your answer and test it against the example in the file header.
-3. Review it, then move the file into `solved/<level>/`.
-4. Commit with a clear message, for example `practice: solve question 10 not boring movies`.
-
 ## Projects
 
-| Project | Tools |
-| --- | --- |
-| [Retail Sales & Profitability Analysis](https://github.com/dinesh-kumar-gudiputi/Sales-Performance-Profitability-Dashboard) | SQL, Python, pandas, matplotlib |
-| [Customer Churn & Retention Analysis](https://github.com/dinesh-kumar-gudiputi/Customer-Churn-Retention-analysis) | SQL, Python, pandas, matplotlib |
-| [E-Commerce Sales Analysis](https://github.com/dinesh-kumar-gudiputi/Ecommerce-Sales-Analysis) | Python, pandas, matplotlib |
-| [Real-Time Sign Language Recognition](https://github.com/dinesh-kumar-gudiputi/project_AI-powerd-Realtime-communication-system-for-people-with-disabilites) | Python, TensorFlow, Flask, OpenCV |
+Finished projects live in their own repositories.
+
+| Project | What it found | Tools |
+| --- | --- | --- |
+| [Retail Sales & Profitability Analysis](https://github.com/dinesh-kumar-gudiputi/Sales-Performance-Profitability-Dashboard) | Order lines discounted over 30% lost $197k | SQL, Python, pandas, matplotlib |
+| [Customer Churn & Retention Analysis](https://github.com/dinesh-kumar-gudiputi/Customer-Churn-Retention-analysis) | Month-to-month contracts are 55.1% of customers but 88.6% of churners | SQL, Python, pandas, matplotlib |
+| [E-Commerce Sales Analysis](https://github.com/dinesh-kumar-gudiputi/Ecommerce-Sales-Analysis) | 392,692 of 541,909 rows kept after cleaning; the top 10% of customers bring 61.4% of revenue | Python, pandas, matplotlib |
+| [Real-Time Sign Language Recognition](https://github.com/dinesh-kumar-gudiputi/project_AI-powerd-Realtime-communication-system-for-people-with-disabilites) | Webcam classifier for the letters A to I | Python, TensorFlow, Flask, OpenCV |
