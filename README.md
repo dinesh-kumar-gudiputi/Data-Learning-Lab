@@ -1,4 +1,4 @@
-# Data Foundations
+# Data Learning Lab
 
 > One repository for the SQL, Python and data skills I practise and study, on the way to a Data Analyst or Analytics Engineer role. Every subject has two parts: **problem solving** and **learning**. New subjects are added as I learn them.
 
@@ -53,7 +53,7 @@ A planned subject gets its folder when the first work lands, so there are no emp
 ## Structure
 
 ```text
-data-foundations/
+data-learning-lab/
 ├── sql/
 │   ├── problem-solving/    easy, medium, hard, solved, earlier-solutions
 │   └── learning/           00_database ... 07_performance, in study order
