@@ -1,6 +1,6 @@
-# Data analysis with Python
+# Python learning
 
-Reference work for the core analysis libraries. Open the notebooks in Jupyter or VS Code.
+Study material for the core data-analysis libraries. Open the notebooks in Jupyter or VS Code. Practice questions live next door in [`../problem-solving/`](../problem-solving/README.md).
 
 ## Notebooks
 

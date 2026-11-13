@@ -1,5 +1,5 @@
 # Medium Python questions
 
-Numbering is one sequence per track and continues across easy, medium and hard.
+Numbers are one sequence per track and keep counting across easy, medium and hard.
 
 No questions at this level yet. They are added as you progress.
